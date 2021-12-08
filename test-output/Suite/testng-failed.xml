@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Login testcase (failed)">
+    <classes>
+      <class name="org.cynergy.automation.testcase.Login_Testcase">
+        <methods>
+          <include name="Login_TC_0001"/>
+          <include name="extendssetup"/>
+          <include name="Login_TC_0003"/>
+          <include name="Login_TC_0002"/>
+          <include name="teardown"/>
+          <include name="postCondition"/>
+        </methods>
+      </class> <!-- org.cynergy.automation.testcase.Login_Testcase -->
+    </classes>
+  </test> <!-- Login testcase (failed) -->
+</suite> <!-- Failed suite [Suite] -->
